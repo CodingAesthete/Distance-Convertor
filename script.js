@@ -26,9 +26,9 @@
 
     if (distance) {
       if (convertType === 'miles') {
-        distance = (distance * 1.60934).toFixed(3);
+        distance = 'Kilometers: '+ (distance * 1.60934).toFixed(3);
       } else {
-        distance = (distance * 0.621371).toFixed(3);
+        distance = 'Miles: '+(distance * 0.621371).toFixed(3);
       }
     } else {
       distance = 'Error';
