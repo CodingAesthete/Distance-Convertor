@@ -7,12 +7,12 @@
     let distance = parseFloat(document.getElementById('distance').value);
 
     if (distance) {
-      distance=distance*1.60934,2;
+      distance = (distance * 1.60934).toFixed(3);
     } else {
-      distance='Error';
+      distance = 'Error';
     }
 
-    document.querySelector('.invisible').textContent=distance;
+    document.querySelector('.invisible').textContent = distance;
   });
 
 })();

@@ -29,7 +29,7 @@ h2 {
 }
 
 .invisible {
-  color: #AABCCC;
+  color: #9924b6;
 }
 
 .container {
@@ -44,7 +44,7 @@ h2 {
 }
 
 .bottom {
-  background: aliceblue;
+  background: rgb(215, 236, 255);
   ;
 }
 
@@ -54,9 +54,10 @@ p {
 
 #distance {
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   width:60px;
+  margin-right: 10px;
 }
 
 input[type=submit] {
